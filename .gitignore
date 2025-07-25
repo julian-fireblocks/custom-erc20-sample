@@ -3,7 +3,6 @@ node_modules
 
 # Hardhat files
 /cache
-/artifacts
 
 # TypeChain files
 /typechain
@@ -18,6 +17,7 @@ ignition/deployments/chain-31337
 
 # Hardhat build artifacts
 artifacts/
+!artifacts/contracts/**/*.json
 cache/
 build-info/
 coverage/
